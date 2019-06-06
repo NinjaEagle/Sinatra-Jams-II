@@ -9,4 +9,9 @@ end
   Instrument.create(name: Faker::Music.instrument, brand: Faker::Company.name)
 end
 
+# ArtistsInstrument.create(artist_id: 1, instrument_id: 1)
+# ArtistsInstrument.create(artist_id: 1, instrument_id: 2)
+# ArtistsInstrument.create(artist_id: 2, instrument_id: 3)
+# ArtistsInstrument.create(artist_id: 2, instrument_id: 4)
+
 puts "File has been seeded! 🍀"
